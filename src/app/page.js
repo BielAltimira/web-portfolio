@@ -14,6 +14,7 @@ export default function Home() {
         color="255, 255, 255"
        />
        <Navbar/>
+       <div className="h-screen"></div>
     </main>
   );
 }

@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import Logo from "../assets/logo.png"
-// import styled from 'styled-components'
 import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
@@ -22,17 +21,25 @@ const Navbar = () => {
   
     return (
       <>
-        <nav className="h-15vh flex justify-between items-center p-10">
-          <Image src={Logo} className="w-10 h-10" alt="Logo" />
-  
-          <ul className="hidden md:flex md:space-x-8">
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">Home</a></li>
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">About</a></li>
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">Skills</a></li>
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">Experience</a></li>
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">Education</a></li>
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">Projects</a></li>
-            <li><a href="#" className="font-medium text-neutral-500 hover:text-white">Contact</a></li>
+        <nav className="h-15vh w-screen flex items-center p-12 justify-between">
+          <Image src={Logo} width={50} alt="Logo"/>
+          <ul className="md:flex md:space-x-8" id='nav-animate'>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">Home</a></li>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">About</a></li>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">Skills</a></li>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">Experience</a></li>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">Education</a></li>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">Projects</a></li>
+            <li><a href="#" className="font-bold text-neutral-500 hover:text-white">Contact</a></li>
+          </ul>
+        </nav>
+        <nav className={`z-50 fixed m-5 top-0 backdrop-blur-3xl bg-zinc-500/25 w-max rounded-full transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-32'}`} style={{ left: 'calc(50% - 200px)' }}>
+          <ul className="flex justify-center items-center h-16">
+            <li className='ml-6 mr-6'><Image src={Logo} width={30} alt="Picture of the author"></Image></li>
+            <li className="mr-6"><a href="#" className="text-white hover:text-gray-500">Home</a></li>
+            <li className="mr-6"><a href="#" className="text-white hover:text-gray-500">About</a></li>
+            <li className="mr-6"><a href="#" className="text-white hover:text-gray-600">Projects</a></li>
+            <li className=" mr-6 bg-neutral-800 hover:bg-neutral-500 rounded-full p-2 pl-4 pr-4"><a href="#" className="text-white">Contact</a></li>
           </ul>
         </nav>
       </>
