@@ -10,6 +10,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+html, body{
+  min-width: 250px;
+}
+
 body {
   background-image: url("assets/bg.png");
   background-size: cover;
@@ -21,6 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
 
 /* Underline animation on hover nav links */
 #nav-animate a{
