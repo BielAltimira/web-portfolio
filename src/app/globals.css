@@ -14,6 +14,10 @@ html, body{
   min-width: 250px;
 }
 
+nav{
+  min-width: 250px;
+}
+
 body {
   background-image: url("assets/bg.png");
   background-size: cover;
@@ -25,6 +29,28 @@ body {
     text-wrap: balance;
   }
 }
+
+p{
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10rem;
+  font-weight: bolder;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 11px;
+  color: gray;
+  word-spacing: 25px;
+}
+
+
+
+
+
 
 
 /* Underline animation on hover nav links */

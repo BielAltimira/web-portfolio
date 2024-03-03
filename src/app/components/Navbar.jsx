@@ -28,14 +28,14 @@ const Navbar = () => {
   
     return (
       <>
-        <nav className="h-15vh w-screen md:flex items-center p-12 md:justify-between backdrop-blur-2xl md:backdrop-opacity-0">
+        <nav className=" absolute h-15vh w-screen md:flex items-center p-12 md:justify-between backdrop-blur-2xl md:backdrop-opacity-0">
           <div className='flex justify-between '>
             <Image src={Logo} width={50} alt="Logo"/>
 
             <button className='md:hidden ' onClick={toggleNavbar}>{isToggled ? <X color='white' size={"35"}/> : <Menu color='white' size={"35"}/>  }</button>
           </div>
 
-          <ul className={`flex-col pt-12 md:p-0 md:flex md:flex-row md:space-x-8 sm:w[100%] ${isToggled ? "" : "hidden"}`}  id='nav-animate'>
+          <ul className={`flex-col pt-12 md:p-0 md:flex md:flex-row md:space-x-8 sm:w[100%] ${isToggled ? "" : "hidden"} ${isVisible ? "hidden" : ""}`}  id='nav-animate'>
             <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Home</a></li>
             <li className='pb-4'><a href="#" className="font-bold text-3xl  md:text-base text-neutral-500 hover:text-white">About</a></li>
             <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Skills</a></li>
