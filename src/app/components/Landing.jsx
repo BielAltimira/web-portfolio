@@ -25,7 +25,7 @@ const Landing = () =>{
                 <a  className="pl-[3rem] pb-[1rem]" href='mailto:tarteraltimirabiel@gmail.com' target='_blank'><FontAwesomeIcon color="gray" className="hover:text-white" icon={faSquareEnvelope} size='3x'/></a>
             </div>
             <div className='flex-1 flex justify-end text-center'>
-                <p className='md:block hidden text-neutral-500 mr-5 [writing-mode:vertical-lr] transform rotate-180 whitespace-no-wrap '>All Rights Reserved to Biel Altimira 2024© </p>
+                <p className='md:block hidden text-neutral-500 [writing-mode:vertical-lr] transform rotate-180 whitespace-no-wrap '>All Rights Reserved to Biel Altimira 2024© </p>
             </div>
             <div className='absolute top-[85%] left-[48.5%]'>
                 <ScrollIcon/>

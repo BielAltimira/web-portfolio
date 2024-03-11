@@ -8,7 +8,7 @@ import { Divide } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen flex-col items-center w-full">
         {/* <AnimatedCursor
         className="touch:hidden block"
         outerSize={20}
@@ -17,8 +17,6 @@ export default function Home() {
        /> */}
        <Navbar/>
        <Landing/>
-       <div className=' h-[100vh]'>
-        </div>
     </main>
   );
 }
