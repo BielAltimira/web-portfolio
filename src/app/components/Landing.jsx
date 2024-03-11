@@ -15,7 +15,7 @@ const Landing = () =>{
                 <a  className="pl-[3rem] pb-[1rem]" href='mailto:tarteraltimirabiel@gmail.com' target='_blank'><FontAwesomeIcon color="gray" className="hover:text-white" icon={faSquareEnvelope} size='2x'/></a>
             </div>
             <div className='flex-1 flex flex-col items-center justify-center'>
-                <h1 className='text-white flex align-center'>BIEL</h1>
+                <h1 id="biel" className='text-white flex align-center'>BIEL</h1>
                 <h2 className='mt-[-3rem] ml-[0.5rem]'>ALTIMIRA TARTER</h2>
             </div>
             <div className='block md:hidden flex-1 flex flex-row align-center justify-center pt-12'>
@@ -24,8 +24,8 @@ const Landing = () =>{
                 <a className="pl-[3rem] pb-[1rem]" href='https://www.instagram.com/biel.alti/' target='_blank'><FontAwesomeIcon color="gray" className="hover:text-white" icon={faSquareInstagram} size='3x'/></a>
                 <a  className="pl-[3rem] pb-[1rem]" href='mailto:tarteraltimirabiel@gmail.com' target='_blank'><FontAwesomeIcon color="gray" className="hover:text-white" icon={faSquareEnvelope} size='3x'/></a>
             </div>
-            <div className='flex-1 flex justify-end text-center'>
-                <p className='md:block hidden text-neutral-500 [writing-mode:vertical-lr] transform rotate-180 whitespace-no-wrap '>All Rights Reserved to Biel Altimira 2024© </p>
+            <div className=' md:flex hidden flex-1 justify-end text-center'>
+                <p className=' text-neutral-500 [writing-mode:vertical-lr] transform rotate-180 whitespace-no-wrap pl-2 '>All Rights Reserved to Biel Altimira 2024© </p>
             </div>
             <div className='absolute top-[85%] left-[48.5%]'>
                 <ScrollIcon/>

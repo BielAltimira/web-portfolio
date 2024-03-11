@@ -1,0 +1,11 @@
+{
+  "about": "I'm Biel, a Data Science and Engineering student at UPC. I'm a Machine Learning enthusiast that longs to become a professional in this field and continue to develop and expand my skill set towards the expertise on Linux, Web Development, Artificial Intelligence, Data Science and Mathematics.",
+  "languages": [
+    {"name" : "Python", "percentatge": "90", "color": "#ffde57"},
+    {"name" : "C++", "percentatge": "80", "color":"#044F88"},
+    {"name" : "SQL", "percentatge": "70", "color":"#F29111"},
+    {"name" : "JavaScript", "percentatge": "50", "color":"#FFDF00"},
+    {"name" : "R", "percentatge": "20", "color":"#165CAA"},
+    {"name" : "C", "percentatge": "5", "color":"#044F88"}
+  ]
+}

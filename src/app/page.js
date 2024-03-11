@@ -2,13 +2,15 @@
 import AnimatedCursor from "react-animated-cursor"
 import Navbar from "./components/Navbar"
 import Landing from "./components/Landing"
-import { Divide } from "lucide-react";
+import About from "./components/About"
+import Background from "./components/Background"
 
 
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center w-full">
+        <Background/>
         {/* <AnimatedCursor
         className="touch:hidden block"
         outerSize={20}
@@ -17,6 +19,7 @@ export default function Home() {
        /> */}
        <Navbar/>
        <Landing/>
+       <About/>
     </main>
   );
 }

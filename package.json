@@ -13,6 +13,8 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.63",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
     "lucide-react": "^0.344.0",
@@ -20,8 +22,8 @@
     "react": "^18",
     "react-animated-cursor": "^2.11.2",
     "react-dom": "^18",
-    "styled-components": "^6.1.8",
-    "typewriter-effect": "^2.21.0"
+    "react-typing-effect": "^2.0.5",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
