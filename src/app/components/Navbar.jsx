@@ -36,13 +36,13 @@ const Navbar = () => {
           </div>
 
           <ul className={`flex-col pt-12 md:p-0 md:flex md:flex-row md:space-x-8 sm:w[100%] ${isToggled ? "" : "hidden"} ${isVisible ? "hidden" : ""}`}  id='nav-animate'>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Home</a></li>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl  md:text-base text-neutral-500 hover:text-white">About</a></li>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Skills</a></li>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Experience</a></li>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Education</a></li>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Projects</a></li>
-            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-neutral-500 hover:text-white">Contact</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-white md:text-neutral-500 hover:text-white">Home</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl  md:text-base text-white md:text-neutral-500 hover:text-white">About</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-white md:text-neutral-500 hover:text-white">Skills</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-white md:text-neutral-500 hover:text-white">Experience</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-white md:text-neutral-500 hover:text-white">Education</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-white md:text-neutral-500 hover:text-white">Projects</a></li>
+            <li className='pb-4'><a href="#" className="font-bold text-3xl md:text-base text-white md:text-neutral-500 hover:text-white">Contact</a></li>
           </ul>
         </nav>
         <div className='hidden md:block w-full '>

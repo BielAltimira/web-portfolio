@@ -16,7 +16,7 @@ const Landing = () =>{
             </div>
             <div className='flex-1 flex flex-col items-center justify-center'>
                 <h1 id="biel" className='text-white flex align-center'>BIEL</h1>
-                <h2 className='mt-[-3rem] ml-[0.5rem]'>ALTIMIRA TARTER</h2>
+                <h2 className='mt-[-3rem] ml-[0.5rem] text-center'>ALTIMIRA TARTER</h2>
             </div>
             <div className='block md:hidden flex-1 flex flex-row align-center justify-center pt-12'>
                 <a className="pb-[1rem]" href='https://www.linkedin.com/in/biel-altimira-tarter/' target='_blank'><FontAwesomeIcon color="gray" className="hover:text-white" icon={faLinkedin} size='3x'/></a>
@@ -27,7 +27,7 @@ const Landing = () =>{
             <div className=' md:flex hidden flex-1 justify-end text-center'>
                 <p className=' text-neutral-500 [writing-mode:vertical-lr] transform rotate-180 whitespace-no-wrap pl-2 '>All Rights Reserved to Biel Altimira 2024© </p>
             </div>
-            <div className='absolute top-[85%] left-[48.5%]'>
+            <div className='absolute top-[85%] left-[46.5%] md:left-[48.5%]'>
                 <ScrollIcon/>
             </div>
         </div>
